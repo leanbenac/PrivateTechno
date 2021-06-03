@@ -1,0 +1,47 @@
+@import "menu";
+@import "lanzamientos";
+@import "entrevista";
+@import "nosotros";
+@import "footer";
+@import "contacto";
+@import "section";
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background:  linear-gradient(to top,  #343a40, #000);
+    font-family: arial, helvetica,sans-serif; 
+    font-size: 20px;
+    padding: 0 0.5em;
+}
+
+p{
+    color: rgb(231, 239, 240);
+    font-size: 21px;
+}
+
+h3 a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{ 
+    width: 100%;
+    max-width: min-content;
+    height: auto;
+}
+
+.fondo-contact{
+    background-color: black;
+    background:url(../img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+}

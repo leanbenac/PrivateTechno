@@ -1,0 +1,19 @@
+// if
+
+$color: blanco;
+
+P{
+    @if ($color== blanco) {
+        color: white;
+    } @else if ($color== rojo) {
+        color: red;
+    }
+}
+
+// for
+
+@for $i from 1 through 6{
+    h#{si} {
+        font-size: $i 1-1*2em;
+    }
+}

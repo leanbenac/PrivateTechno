@@ -1,0 +1,28 @@
+/*lanzamientos*/
+
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    animation-duration:5s;
+    animation-name: aparecer;
+} 
+
+@keyframes aparecer {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+
+/*termina lanzamientos*/
