@@ -15,7 +15,7 @@
 body{ 
     background:  linear-gradient(to top,  #343a40, #000);
     font-family: arial, helvetica,sans-serif; 
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 0 0.5em;
 }
 
@@ -43,5 +43,12 @@ h3 a{
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
-
+}
+.fondo-nosotros{
+    background-color: black;
+    background:url(../img/kolpos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
 }

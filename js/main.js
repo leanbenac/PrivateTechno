@@ -31,3 +31,6 @@ jQuery(function($) {
 	
 	adjustNav();
 }); 
+
+//wow
+new WOW().init();
