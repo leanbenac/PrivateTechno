@@ -286,14 +286,12 @@ font-size: 2.5rem;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 25px;
-	font-family:  arial, helvetica,sans-serif; 
 }
 .carousel-caption p {
 	width: 80%;
 	margin: auto;
-	font-size: 18px;
+	font-size: 1.4rem;
 	line-height: 1.9;
-	font-family:  arial, helvetica,sans-serif; 
 }
 .carousel-caption a {
 	text-transform: uppercase;
@@ -302,8 +300,8 @@ font-size: 2.5rem;
 	display: inline-block;
 	color: #fff;
 	margin-top: 15px;
+    border-radius: 10%;
 }
-
 
 @media only screen and (max-width: 767px) {
 	.navbar-nav.ml-auto {

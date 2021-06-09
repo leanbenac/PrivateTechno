@@ -19,17 +19,6 @@ body{
     padding: 0 0.5em;
 }
 
-p{
-    color: rgb(231, 239, 240);
-    font-size: 21px;
-}
-
-h3 a{
-    color: white;
-    list-style: none;
-    text-decoration: none;
-}
-
 .logo{ 
     width: 100%;
     max-width: min-content;
@@ -44,6 +33,7 @@ h3 a{
     background-attachment: fixed;
     height: 100vh;
 }
+
 .fondo-nosotros{
     background-color: black;
     background:url(../img/kolpos.jpg);

@@ -256,15 +256,13 @@
   font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 25px;
-  font-family: arial, helvetica,sans-serif; }
+  margin-top: 25px; }
 
 .carousel-caption p {
   width: 80%;
   margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
-  font-family: arial, helvetica,sans-serif; }
+  font-size: 1.4rem;
+  line-height: 1.9; }
 
 .carousel-caption a {
   text-transform: uppercase;
@@ -272,7 +270,8 @@
   padding: 10px 30px;
   display: inline-block;
   color: #fff;
-  margin-top: 15px; }
+  margin-top: 15px;
+  border-radius: 10%; }
 
 @media only screen and (max-width: 767px) {
   .navbar-nav.ml-auto {
@@ -307,9 +306,10 @@ h1 {
   justify-content: center; }
 
 .entrevista__text {
+  padding-top: 15px;
+  margin-bottom: 70px;
   text-align: center;
-  font-family: 'Zen Dots',sans-serif, italic;
-  font-size: 20px;
+  font-size: 1.2rem;
   letter-spacing: 3px;
   word-spacing: 10px;
   color: #e7eff0;
@@ -319,7 +319,7 @@ h1 {
 /*termina entrevista*/
 .nosotros__container {
   text-align: center;
-  margin-top: 70px; }
+  margin-top: 40px; }
 
 .nosotros__parrafo {
   font-size: 24px;
@@ -345,13 +345,13 @@ h1 {
   border-radius: 50%;
   margin: 0 6px;
   transition: transform 0.5s;
-  margin-top: 100px; }
+  margin-top: 120px; }
 
 .footer__socialNetworks a:hover {
   transform: scale(1.3); }
 
 .footer__text {
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   font-size: 15px;
   text-align: center;
   color: white; }
@@ -452,7 +452,7 @@ ul {
   text-align: center; }
 
 .section__tittle {
-  margin-top: 80px;
+  margin-top: 90px;
   text-align: center;
   margin-bottom: 30px; }
 
@@ -466,9 +466,6 @@ ul {
   padding: 5px;
   font-size: 1rem;
   color: #000; }
-
-.section__text--artista {
-  font-size: 20px; }
 
 .section__foto {
   width: 100%;
@@ -522,15 +519,6 @@ body {
   font-family: arial, helvetica,sans-serif;
   font-size: 1.5rem;
   padding: 0 0.5em; }
-
-p {
-  color: #e7eff0;
-  font-size: 21px; }
-
-h3 a {
-  color: white;
-  list-style: none;
-  text-decoration: none; }
 
 .logo {
   width: 100%;
