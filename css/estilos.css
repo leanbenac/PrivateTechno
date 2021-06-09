@@ -319,13 +319,12 @@ h1 {
 /*termina entrevista*/
 .nosotros__container {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 70px; }
 
 .nosotros__parrafo {
   font-size: 24px;
   letter-spacing: 5px;
   word-spacing: 20px;
-  font-family: 'Zen Dots',sans-serif, italic;
   color: #e7eff0; }
 
 /*-----termina sobrenosotros-----*/
@@ -453,8 +452,9 @@ ul {
   text-align: center; }
 
 .section__tittle {
-  margin-top: 50px;
-  text-align: center; }
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 30px; }
 
 .section__column {
   display: flex;
