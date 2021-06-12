@@ -164,17 +164,16 @@ font-size: 2.5rem;
 .navbar.fixed-top .navbar-nav {
     background: transparent;
 }
+.navbar-expand-md{
+    flex-flow: row wrap;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    font-size: 1.2rem;
+}
 }
 @media screen and (min-width: 767px) {
-.banner {
-    padding: 0 150px;
-}
-.banner h1 {
-    font-size: 5rem;
-}
-.banner p {
-    font-size: 2rem;
-}
+
 .navbar-dark .navbar-nav .nav-link {
     padding: 23px 15px;
 }
@@ -205,6 +204,17 @@ font-size: 2.5rem;
     transform-origin: top;
 }
 }
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.9);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
 @-webkit-keyframes navbar-animation {
 0% {
     opacity: 0;
@@ -272,14 +282,14 @@ font-size: 2.5rem;
 /*carusel*/
 
 .carousel-item {
-	height: 100vh;
+	height: auto;
     min-height: 300px;
     background-size: cover;
     background-attachment: fixed;
     margin-top: 80px;
 }
 .carousel-caption {
-	bottom: 220px;
+	bottom: 100px;
 }
 .carousel-caption h5 {
 	font-size: 40px;
@@ -303,14 +313,8 @@ font-size: 2.5rem;
     border-radius: 10%;
 }
 
-@media only screen and (max-width: 767px) {
-	.navbar-nav.ml-auto {
-		background: rgba(0, 0, 0, 0.5);
-	}
-	.navbar-nav a {
-		font-size: 14px;
-		font-weight: normal;
-	}
+@media screen and (max-width: 768px) {
+.carousel-item {
+    margin-top: 150px;
 }
-
-
+}
