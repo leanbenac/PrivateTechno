@@ -143,7 +143,7 @@
   background-color: #c0ca33; }
 
 .content {
-  padding-top: 110px;
+  padding-top: 73px;
   padding-bottom: 20px 0px; }
 
 @media screen and (max-width: 768px) {
@@ -192,6 +192,22 @@
   .navbar-nav a {
     font-size: 14px;
     font-weight: normal; } }
+
+@media only screen and (max-width: 992px) {
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.9); }
+  .navbar-nav a {
+    font-size: 1.5rem;
+    font-weight: normal;
+    cursor: pointer; } }
+
+@media only screen and (max-width: 1200px) {
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.9); }
+  .navbar-nav a {
+    font-size: 1.6rem;
+    font-weight: normal;
+    cursor: pointer; } }
 
 @-webkit-keyframes navbar-animation {
   0% {
@@ -250,24 +266,26 @@
 .carousel-item {
   height: auto;
   min-height: 300px;
+  max-height: 720px;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 80px; }
+  margin-top: 75px; }
 
 .carousel-caption {
-  bottom: 100px; }
+  bottom: 120px; }
 
 .carousel-caption h5 {
   font-size: 40px;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px; }
+  letter-spacing: 3px;
+  text-shadow: 1px 2px #000; }
 
 .carousel-caption p {
   width: 80%;
   margin: auto;
   font-size: 1.4rem;
-  line-height: 1.9; }
+  line-height: 1.9;
+  text-shadow: 1px 2px #000; }
 
 .carousel-caption a {
   text-transform: uppercase;
@@ -275,12 +293,8 @@
   padding: 10px 30px;
   display: inline-block;
   color: #fff;
-  margin-top: 15px;
+  margin-top: 10px;
   border-radius: 10%; }
-
-@media screen and (max-width: 768px) {
-  .carousel-item {
-    margin-top: 150px; } }
 
 /*lanzamientos*/
 h1 {
@@ -289,8 +303,8 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  color: white;
+  font-size: 1.8rem;
+  color: #e7eff0;
   text-align: center;
   animation-duration: 6s;
   animation-name: aparecer; }
@@ -324,7 +338,7 @@ h1 {
   margin-top: 40px; }
 
 .nosotros__parrafo {
-  font-size: 24px;
+  font-size: 1.5rem;
   letter-spacing: 5px;
   word-spacing: 20px;
   color: #e7eff0; }
@@ -376,9 +390,6 @@ ul {
 .contact-wrapper > * {
   padding: 1em; }
 
-.contact-form {
-  background: 343a40; }
-
 .contact-form form {
   display: grid;
   grid-template-columns: 1fr 1fr; }
@@ -402,7 +413,8 @@ ul {
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #d63031; }
+  border-bottom: 1px solid #d63031;
+  font-size: 1.1rem; }
 
 .contact-form form button {
   background: #B70E21;
@@ -430,17 +442,6 @@ ul {
 @media only screen and (min-width: 768px) {
   .contact-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr; }
-  .contact-wrapper > * {
-    padding: 2em; }
-  .contact-info h4,
-  .contact-info ul,
-  .contact-info p {
-    text-align: left; } }
-
-@media only screen and (min-width: 1024px) {
-  .contact-wrapper {
-    display: grid;
     grid-template-columns: 2fr 1fr; }
   .contact-wrapper > * {
     padding: 2em; }
@@ -457,6 +458,13 @@ ul {
   margin-top: 90px;
   text-align: center;
   margin-bottom: 30px; }
+
+.section__parrafo {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  padding: 0.7em;
+  padding-top: 150px;
+  line-height: 35px; }
 
 .section__column {
   text-align: center;
@@ -481,6 +489,7 @@ ul {
   height: auto;
   transition: all 0.25s;
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
   padding: 0.3rem; }
 
 .section__card:hover {
@@ -488,36 +497,16 @@ ul {
   border: 1px solid #c0ca33;
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
 
-P {
-  color: white; }
-
-hsi {
-  font-size: 1 -1em; }
-
-hsi {
-  font-size: 2 -1em; }
-
-hsi {
-  font-size: 3 -1em; }
-
-hsi {
-  font-size: 4 -1em; }
-
-hsi {
-  font-size: 5 -1em; }
-
-hsi {
-  font-size: 6 -1em; }
-
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  background: linear-gradient(to top, #343a40, #000);
+  background: #000;
   font-family: arial, helvetica,sans-serif;
   font-size: 1.5rem;
-  padding: 0 0.5em; }
+  padding: 0 0.1em;
+  color: #fff; }
 
 .logo {
   width: 100%;
@@ -535,6 +524,37 @@ body {
 .fondo-nosotros {
   background-color: black;
   background: url(../img/kolpos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.fondo-index {
+  background-color: black;
+  background: url(../img/fondo4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.fondo-lanzamiento {
+  background-color: black;
+  background: url(../img/fondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.fondo-entrevistas {
+  background-color: black;
+  background: url(../img/fondo4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.fondo-podcast {
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

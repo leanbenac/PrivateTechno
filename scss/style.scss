@@ -13,10 +13,11 @@
 }
 
 body{ 
-    background:  linear-gradient(to top,  #343a40, #000);
+    background:  #000;
     font-family: arial, helvetica,sans-serif; 
     font-size: 1.5rem;
-    padding: 0 0.5em;
+    padding: 0 0.1em;
+    color: #fff;
 }
 
 .logo{ 
@@ -41,4 +42,38 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
+}
+.fondo-index{
+    background-color: black;
+    background:url(../img/fondo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}     
+
+.fondo-lanzamiento{
+background-color: black;
+background:url(../img/fondo3.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100vh;}
+
+.fondo-entrevistas{
+    background-color: black;
+background:url(../img/fondo4.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100vh;
+}
+
+.fondo-podcast{
+    background-color: black;
+
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100vh;
 }

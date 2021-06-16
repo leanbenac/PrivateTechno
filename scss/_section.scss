@@ -10,6 +10,14 @@
     margin-bottom: 30px;
 }
 
+.section__parrafo{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    padding: 0.7em;
+    padding-top: 150px;
+    line-height: 35px;
+}
+
 .section__column{
     text-align: center;
     margin-top: 20px;
@@ -36,6 +44,7 @@
     height: auto;
     transition: all 0.25s;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
     padding: 0.3rem;
 }
 
@@ -44,3 +53,4 @@
     border: 1px solid #c0ca33;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
+
