@@ -326,7 +326,7 @@ h1 {
   justify-content: center; }
 
 .entrevista__text {
-  padding-top: 15px;
+  padding-top: 4px;
   margin-bottom: 70px;
   text-align: center;
   font-size: 1.2rem;
@@ -505,6 +505,14 @@ ul {
   border: 1px solid #d63031;
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
 
+@media screen and (min-width: 767px) {
+  .section__parrafo {
+    padding: 5rem 4rem 5rem 4rem; } }
+
+@media screen and (max-width: 480px) {
+  .section__parrafo {
+    padding: 5rem 1rem 5rem 1rem; } }
+
 * {
   margin: 0;
   padding: 0; }
@@ -567,31 +575,3 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh; }
-
-.back-to-top-link {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 2rem;
-  line-height: 3rem;
-  text-align: center;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: #d6e3f0;
-  /* emoji don't behave like regular fonts
-       so this helped position it correctly */
-  padding: 0.25rem; }
-
-.back-to-top-wrapper {
-  position: absolute;
-  top: 100vh;
-  right: 0.25rem;
-  bottom: -5em;
-  width: 3em;
-  pointer-events: none; }
-
-.back-to-top-link {
-  position: fixed;
-  position: sticky;
-  pointer-events: all;
-  top: calc(100vh - 5rem); }
