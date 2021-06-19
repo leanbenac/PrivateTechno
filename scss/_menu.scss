@@ -102,7 +102,7 @@ font-size: 2.5rem;
     font-size: 1.5rem;
 }
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: #c0ca33;
+    color: #d63031;
 }
 .navbar .dropdown-menu {
     padding: 0;
@@ -121,7 +121,7 @@ font-size: 2.5rem;
 }
 .navbar .dropdown-menu .dropdown-item:hover {
     background: transparent;
-    color: #c0ca33;
+    color: #d63031;
 }
 .navbar .dropdown-menu .dropdown-item::before {
     content: '';
@@ -130,7 +130,7 @@ font-size: 2.5rem;
     left: 0;
     top: 0;
     width: 5px;
-    background-color: #c0ca33;
+    background-color: #d63031;
     opacity: 0;
     transition: opacity 0.2s ease-in;
 }
@@ -144,10 +144,10 @@ font-size: 2.5rem;
     background-color: rgba(0, 0, 0, .9);
 }
 .navbar.fixed-top.navbar-dark .navbar-nav .nav-link.active {
-    color: #c0ca33;
+    color: #d63031;
 }
 .navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
-    background-color: #c0ca33;
+    background-color: #d63031;
 }
 .content {
     padding-top: 73px;
@@ -184,7 +184,7 @@ font-size: 2.5rem;
     left: 10%;
     right: 10%;
     height: 1px;
-    background-color: #fff;
+    background-color: #d63031;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -231,7 +231,7 @@ font-size: 2.5rem;
 		background: rgba(0, 0, 0, 0.9);
 	}
 	.navbar-nav a {
-		font-size: 1.6rem;
+		font-size: 1rem;
 		font-weight: normal;
         cursor: pointer;
 	}
@@ -303,6 +303,8 @@ font-size: 2.5rem;
 
 /*carusel*/
 
+
+
 .carousel-item {
 	height: auto;
     min-height: 300px;
@@ -321,7 +323,7 @@ font-size: 2.5rem;
     text-shadow: 1px 2px #000;
 }
 .carousel-caption p {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	font-size: 1.4rem;
 	line-height: 1.9;
@@ -337,3 +339,8 @@ font-size: 2.5rem;
     border-radius: 10%;
 }
 
+@media only screen and (max-width: 767px){
+.carousel{
+    margin-top: 3rem;
+}
+}
