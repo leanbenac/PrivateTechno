@@ -7,9 +7,23 @@
 
 .nosotros__parrafo{
     font-size: 1.5rem;
-    letter-spacing: 2px;
-    word-spacing: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 10px;
     color: rgb(231, 239, 240);
+}
+
+.nosotros__parrafo--entrevista{
+    font-size: 1.3rem;
+    letter-spacing: 0px;
+    word-spacing: 10px;
+    color: rgb(231, 239, 240);
+    text-align:center;
+}
+.nosotros__container--entrevista{
+    text-align:center;
+    margin-top: 10px;
+    padding-left: .6rem;
+    padding-right: .6rem;
 }
 
 /*-----termina sobrenosotros-----*/

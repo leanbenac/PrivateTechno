@@ -95,6 +95,10 @@ ul {
     }
 }
 
-
-
+@media screen and (max-width:480px) {
+    .contact-form form .mobile {
+        grid-column: 1 / 3;
+    }
+    
+}
 
