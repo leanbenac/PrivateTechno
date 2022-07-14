@@ -10,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{ 
@@ -70,4 +71,10 @@ background-attachment: fixed;
 height: 100vh;
 }
 
+
+// .carousel{
+//     box-shadow: -2px 16px 24px -14px #d63031;
+//     -webkit-box-shadow: -2px 16px 24px -14px #d63031;
+//     -moz-box-shadow: -2px 16px 24px -14px #d63031;
+// }
 

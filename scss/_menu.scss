@@ -8,7 +8,6 @@
 
 .button-primary {
     position: relative;
-    background-color: #c0ca33;
     color: #fff;
     font-size: 1.8rem;
     font-weight: 700;
@@ -111,7 +110,9 @@ font-size: 2.5rem;
 }
 .navbar .dropdown-menu {
     padding: 0;
-    background-color: rgba(0, 0, 0, .9);
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.404);
+
 }
 .navbar .dropdown-menu .dropdown-item {
     position: relative;
@@ -176,11 +177,16 @@ font-size: 2.5rem;
 .navbar-dark .navbar-nav .nav-link{
     font-size: 1.2rem;
 }
+.navbar .dropdown-menu {
+    padding-left: 30px;
+
+
+}
 }
 @media screen and (min-width: 767px) {
 
 .navbar-dark .navbar-nav .nav-link {
-    padding: 23px 15px;
+    padding: 15px 15px;
 }
 .navbar-dark .navbar-nav .nav-link::after {
     content: '';

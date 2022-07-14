@@ -21,6 +21,10 @@ h1{
     }
 }
 
-
-
 /*termina lanzamientos*/
+
+@media only screen and (max-width: 767px){
+    h1{
+        font-size: 1.3rem;
+    }
+}
