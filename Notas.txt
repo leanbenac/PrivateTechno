@@ -1,0 +1,4 @@
+Cuando se ingresa por primera vez a "lanzamientos" las tarjetas tardan muchisimo en cargar.
+Esto se debe a la gran cantidad de iframes. 
+Posible solucion: 
+Agregar los covers en forma de imagen y que al cliquear se transforme en el iframe.

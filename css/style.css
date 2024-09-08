@@ -65,8 +65,6 @@
   height: 2px;
   background-color: #fff;
   opacity: 0;
-  -webkit-transform: translateY(-1px);
-  -ms-transform: translateY(-1px);
   transform: translateY(-1px);
   transition: all 0.3s ease-in;
 }
@@ -159,17 +157,12 @@
 
 .navbar.fixed-top {
   position: fixed;
-  -webkit-animation: navbar-animation 0.6s;
   animation: navbar-animation 0.6s;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar.fixed-top.navbar-dark .navbar-nav .nav-link.active {
   color: #d63031;
-}
-
-.navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
-  background-color: #d63031;
 }
 
 .content {
@@ -204,10 +197,7 @@
   }
   .dropdown-menu {
     min-width: 200px;
-    -webkit-animation: dropdown-animation 0.3s;
     animation: dropdown-animation 0.3s;
-    -webkit-transform-origin: top;
-    -ms-transform-origin: top;
     transform-origin: top;
   }
 }
@@ -240,65 +230,24 @@
     cursor: pointer;
   }
 }
-@-webkit-keyframes navbar-animation {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
 @keyframes navbar-animation {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
     transform: translateY(-100%);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes dropdown-animation {
-  0% {
-    -webkit-transform: scaleY(0);
-    -ms-transform: scaleY(0);
-    transform: scaleY(0);
-  }
-  75% {
-    -webkit-transform: scaleY(1.1);
-    -ms-transform: scaleY(1.1);
-    transform: scaleY(1.1);
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    transform: scaleY(1);
   }
 }
 @keyframes dropdown-animation {
   0% {
-    -webkit-transform: scaleY(0);
-    -ms-transform: scaleY(0);
     transform: scaleY(0);
   }
   75% {
-    -webkit-transform: scaleY(1.1);
-    -ms-transform: scaleY(1.1);
     transform: scaleY(1.1);
   }
   100% {
-    -webkit-transform: scaleY(1);
-    -ms-transform: scaleY(1);
     transform: scaleY(1);
   }
 }
@@ -674,6 +623,7 @@ body {
 
 .logo {
   width: 100%;
+  max-width: -moz-min-content;
   max-width: min-content;
   height: auto;
 }
@@ -721,6 +671,4 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
